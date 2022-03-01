@@ -3,10 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
+import { CrearTareasComponent } from './crear-tareas/crear-tareas.component';
+import { VerTareasComponent } from './ver-tareas/ver-tareas.component';
+import { EliminarTareasComponent } from './eliminar-tareas/eliminar-tareas.component';
+import { ActualizarTareasComponent } from './actualizar-tareas/actualizar-tareas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    CrearTareasComponent,
+    VerTareasComponent,
+    EliminarTareasComponent,
+    ActualizarTareasComponent
   ],
   imports: [
     BrowserModule,
