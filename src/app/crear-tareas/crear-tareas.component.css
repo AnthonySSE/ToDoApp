@@ -1,0 +1,34 @@
+.titulo
+{
+    text-align: center;
+    font-size: 64px;
+}
+.tarea
+{
+    text-align: center;
+}
+#nombre
+{
+    padding-right: 255px;
+}
+#agregartarea
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 50px;
+}
+.cajatareas
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.listatareas
+{
+    float: left;
+    width: 600px;
+    height: 300px;
+    background-color: red;
+    text-align: center;
+}
